@@ -8,23 +8,32 @@ mongoose.connect(dburi).then(() => {
     console.log(e)
 }); 
 
-// const Login = mongoose.model('Login', LoginSchema)
 
-const LoginSchema = new mongoose.Schema({
+//appointment
+const AppointmentSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
         // trim: true
     },
-    password: {
-        type: String,
-        required: false,
+    number: {
+        type: Number,
+        required: true,
         // trim: true
-    }
+    },
+    email: {
+        type: String,
+        required: true,
+        // trim: true
+    },
+    date: {
+        type: String,
+        required: true,
+        // trim: true
+    },
+
 })
 
-const LoginCollections = new mongoose.model('LoginCollections', LoginSchema)
+const Appointmentcollections = new mongoose.model('Appointmentcollections', AppointmentSchema)
 
-module.exports = LoginCollections
-
-
+module.exports = Appointmentcollections
