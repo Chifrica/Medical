@@ -5,11 +5,13 @@ const hbs = require("hbs")
 const collection = require("./mongodb");
 app.use(express.urlencoded({ extended: false }));
 
-app.use(express.json())
-app.set("view engine", "hbs")
-app.engine("hbs", hbs.__express)
-app.set("views", path.join(__dirname, "../templates"))
+const publicPath = path.join(__dirname, '../public');
+app.use(express.static(publicPath));
 
+app.use(express.json())
+
+app.set("view engine", "hbs")
+app.set("views", path.join(__dirname, "../templates"))
 
 app.listen(3000, () => {
   console.log("Server is listening on port 3000")
