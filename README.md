@@ -29,7 +29,7 @@ doctorFinder is a comprehensive platform designed to facilitate seamless communi
 
 3. Start the application:
    ```bash
-   npm start
+   node src/index.js
    ```
 
 **Usage:**
