@@ -53,7 +53,7 @@ doctorFinder is a comprehensive platform designed to facilitate seamless communi
 This project is licensed under the [MIT License](LICENSE).
 
 **Acknowledgements:**
-- Special thanks to [MLH](https://mlh.io/) and [All In Open Source](https://www.allinopensource.com/) for organizing the hackathon.
+- Special thanks to **Major League Hackers** [MLH](https://mlh.io/) and [All In Open Source](https://www.allinopensource.com/) for organizing the hackathon.
 - Thanks to our sponsors [Fidelity](https://www.fidelity.com/).
 
 **Contact:**
