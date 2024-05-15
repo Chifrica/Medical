@@ -57,4 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 - Thanks to our sponsors [Fidelity](https://www.fidelity.com/).
 
 **Contact:**
-For inquiries, please contact [comon928@gmail.com].
+For inquiries, please contact [chikaonwunali2019@gmail.com].
