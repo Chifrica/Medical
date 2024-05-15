@@ -19,7 +19,7 @@ doctorFinder is a comprehensive platform designed to facilitate seamless communi
 **Installation:**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Comon-tech/doctorFinder
+   git clone https://github.com/Chifrica/Medical.git
    ```
 
 2. Install dependencies:
